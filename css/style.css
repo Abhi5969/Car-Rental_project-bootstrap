@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "clash display bold";
+    src: url(../font/ClashDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: "clash display light";
+    src: url(../font/ClashDisplay-Light.otf);
+}
+
+@font-face {
+    font-family: "clash display medium";
+    src: url(../font/ClashDisplay-Medium.otf);
+}
+
+@font-face {
+    font-family: "clash display semibold";
+    src: url(../font/ClashDisplay-Semibold.otf);
+}
+
+@font-face {
+    font-family: "clash display regular";
+    src: url(../font/ClashDisplay-Regular.otf);
+}
+.btn-create {
+    background-color: #ffffff;
+    color: black;
+}
+
+.btn-create:hover {
+    background-color: black;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.text-clash {
+    font-family: "clash display light";
+}
+
+.text-clash-bold {
+    font-family: "clash display bold";
+}
+
+
+.text-clash-me {
+    font-family: "clash display medium";
+}
+
+.text-clash-smb {
+    font-family: "clash display semibold";
+}
+
+.text-clash-re {
+    font-family: "clash display regular";
+}
+.navbar-links {
+    position: relative;
+}
+
+
+.nav-list {
+    position: absolute;
+    left: 10%;
+}
+
+.nav_CA_btn {
+    position: absolute;
+    right: 10%;
+}
+
+.banner-con {
+    position: relative;
+}
+
+.banner-content-top {
+    position: absolute;
+    z-index: 99;
+    top: 20%;
+    left: 12%;
+}
+
+.banner-para1 {
+    font-size: 21px;
+}
+
+.banner-heading {
+    font-size: 74px;
+}
+
+.banner-para2 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    max-width: 400px;
+    font-size: 16px;
+}
+
+.arrow-up-right {
+    background-color: #ffffff1e;
+}
+
+.banner-content-bottom {
+    width: 80%;
+    position: absolute;
+    bottom: 12%;
+    backdrop-filter: blur(15px);
+}
+
+
+.data-font {
+    font-size: 32px;
+}
+
+ul {
+    list-style: none;
+}
+
+.banner-f-col {
+    border-color: rgba(255, 255, 255, .15);
+}
+
+/* .card-data {
+    margin-top: 87%;
+} */
+
+.bookmark{
+    top: 5%;
+    right: 5%;
+}
+
+.bg-dark-green{
+    background-color: rgb(2, 36, 23);
+}
+
+.bg-dark-opacity{
+    background-color: rgba(255, 255, 255, .15);
+}
+.bg-backdrop{
+    backdrop-filter: blur(15px);
+}
+
+.bg-backdrop-2{
+    backdrop-filter: blur(2px);
+}
+.start-10{
+    left: 10%;
+}
+
+.start-5{
+    left: 5%;
+}
+.top-10{
+    top: 10%;
+}
+
+.top-25{
+    top:25%
+}
+
+.shadow-bottom{
+    box-shadow: 6px 8px rgb(187, 187, 187);
+}
+
+.fs-60{
+    font-size: 60px;
+}

@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Car Rental Bootstrap</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container px-4 d-flex justify-content-between">
+                <div class="logo">
+                    <a class="navbar-brand" href="#">
+                        <img src="./image/logo (1).png" alt="">
+                    </a>
+                </div>
+                <button class="navbar-toggler bg-success" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-links collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="nav-list">
+                        <ul class="navbar-nav border rounded-5">
+                            <li class="nav-item">
+                                <a class="nav-link text-white p-4 text-clash" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white p-4 text-clash" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white p-4 text-clash" href="#">Vehicles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white p-4 text-clash" href="#">Car Details</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white p-4 text-clash" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white p-4 text-clash" href="#">Cart(0)</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="nav_CA_btn">
+                        <button type="button"
+                            class="btn p-2 px-3 ms-3 btn-outline-dark text-clash btn-create rounded-5">Create
+                            Account</button>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container-fludid">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active banner-con d-flex justify-content-center">
+                        <img src="./image/banner_img.png" class="d-block w-100" alt="...">
+                        <div class="banner-content-top">
+                            <p class="text-clash text-white-50 banner-para1 ">BUILT TO INSPIRE</p>
+                            <h1 class="text-clash text-white banner-heading fs-sm-6">Ranger <span class="text-white-50">
+                                    Black</span></h1>
+                            <p class="text-clash text-white-50 banner-para2 ">Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Deleniti
+                                ipsa eius quisquam
+                                quidem excepturi recusandae odio aperiam magnam possimus aliquid.</p>
+                            <a href="#"
+                                class="border rounded-5 p-2 px-4 text-decoration-none text-clash text-white">Discover
+                                More <span class="arrow-up-right p-2 rounded-5"><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></span> </a>
+                        </div>
+                        <!-- <div class="banner-content-bottom border rounded-2 p-1"> -->
+                        <div
+                            class="row data-con banner-content-bottom border rounded-2 p-1 d-flex  justify-content-between ">
+                            <div
+                                class="col-lg-3 col-md-6 text-white banner-f-col border border-end-0 border-start-0  border-top-0 border-bottom-0">
+                                <p class="text-clash text-start fs-2 ">50+</p>
+                                <p class="text-clash text-start px-0 lg-fs-6">Project Complete</p>
+                            </div>
+                            <div
+                                class="col-lg-3 col-md-6 text-white banner-f-col border border-end-0 border-start-  border-top-0 border-bottom-0">
+                                <p class="text-clash text-center fs-2 ">100+</p>
+                                <p class="text-clash text-center px-0 lg-fs-6">Export Teams</p>
+                            </div>
+                            <div
+                                class="col-lg-3 col-md-6 text-white banner-f-col  border border-end-0 border-start-  border-top-0 border-bottom-0">
+                                <p class="text-clash text-center fs-2 lg-fs-6">$3.5M</p>
+                                <p class="text-clash text-center px-0 lg-fs-6">Project Value</p>
+                            </div>
+                            <div
+                                class="col-lg-3 col-md-6 text-white banner-f-col  border border-end-0 border-start-  border-top-0 border-bottom-0">
+                                <p class="text-clash text-end  fs-2">$3.5M</p>
+                                <p class="text-clash text-end px-0 lg-fs-6">Project Value</p>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="p-5">
+        <div class="container p-2">
+            <div class="heading-explor">
+                <h2 class="text-clash-me text-start px-4">Explore All Vehicles</h2>
+                <div class="buttons d-flex p-2">
+                    <button type="button" class="btn text-clash-me  border-2 border-info border-end-0 border-start-0 border-top-0">In Stock</button>
+                    <button type="button" class="btn text-clash-me  ">New Cars</button>
+                    <button type="button" class="btn text-clash-me ">Used Cars</button>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-4  col-md-6 col-sm-12 ">
+                    <div class="card car-card border rounded-5 position-reletive  ">
+                        <img src="./image/card1.png" class="card-img" alt="car">
+                        <div class="bookmark position-absolute bg-light p-1 rounded-circle ">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                        <div class="card-img-overlay ">
+                            <div class="row position-absolute bottom-0 start-0">
+                                <div class="col">
+                                    <div class="card bg-dark-opacity  rounded-bottom-5" style="width: 100%;">
+                                        <div class="card-body">
+                                            <p class="fs-5 text-white text-clash-me">C-Class-2025</p>
+                                            <p class="fs-6 text-clash text-white">4.0 D5 PowerPluse Momentum 5dr AWD...
+                                                Geartronic
+                                                Estate</p>
+                                            <div class="details text-white">
+                                                <span><i class="fa-solid fa-gauge"></i> 50 Miles</span>
+                                                <span><i class="fa-solid fa-gas-pump"></i> Petrol</span>
+                                                <span><i class="fa-solid fa-gears"></i> Automatic</span>
+                                            </div>
+                                            <p class="fs-5  text-white text-clash-me">$150,000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-6 col-sm-12 ">
+                    <div class="card car-card rounded-5 position-reletive ">
+                        <img src="./image/card2.png" class="card-img" alt="car">
+                        <div class="bookmark position-absolute  bg-light p-1 rounded-circle">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                        <div class="card-img-overlay ">
+                            <div class="row position-absolute bottom-0 start-0">
+                                <div class="col">
+                                    <div class="card bg-dark-opacity rounded-bottom-5" style="width: 100%;">
+                                        <div class="card-body">
+                                            <p class="fs-5 text-white text-clash-me">C-Class-2025</p>
+                                            <p class="fs-6 text-clash text-white">4.0 D5 PowerPluse Momentum 5dr AWD...
+                                                Geartronic
+                                                Estate</p>
+                                            <div class="details text-white">
+                                                <span><i class="fa-solid fa-gauge"></i> 50 Miles</span>
+                                                <span><i class="fa-solid fa-gas-pump"></i> Petrol</span>
+                                                <span><i class="fa-solid fa-gears"></i> Automatic</span>
+                                            </div>
+                                            <p class="fs-5  text-white text-clash-me">$150,000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-6 col-sm-12">
+                    <div class="card car-card rounded-5 position-reletive ">
+                        <img src="./image/card3.png" class="card-img" alt="car">
+                        <div class="bookmark position-absolute  bg-light p-1 rounded-circle">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                        <div class="card-img-overlay ">
+                            <div class="row position-absolute bottom-0 start-0">
+                                <div class="col">
+                                    <div class="card bg-dark-opacity  rounded-bottom-5" style="width: 100%;">
+                                        <div class="card-body">
+                                            <p class="fs-5 text-white text-clash-me">C-Class-2025</p>
+                                            <p class="fs-6 text-clash text-white">4.0 D5 PowerPluse Momentum 5dr AWD...
+                                                Geartronic
+                                                Estate</p>
+                                            <div class="details text-white">
+                                                <span><i class="fa-solid fa-gauge"></i> 50 Miles</span>
+                                                <span><i class="fa-solid fa-gas-pump"></i> Petrol</span>
+                                                <span><i class="fa-solid fa-gears"></i> Automatic</span>
+                                            </div>
+                                            <p class="fs-5  text-white text-clash-me">$150,000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-view p-5 text-center">
+                <a href="#"
+                    class="text-decoration-none text-clash text-black border border-dark p-2 rounded-5 fs-6">View All
+                    <span class="bg-dark text-white p-1 px-1 rounded-circle">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span> </a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container px-5">
+            <h2 class="text-clash-me fs-2">Why Choose Us?</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="features-box">
+                        <i class="ri-hand-coin-line text-success fs-1"></i>
+                        <h3 class="py-3 text-clash-me fs-4">Special Financing Offers</h3>
+                        <p class="fs-5 text-clash">
+                            Our stress-free finance department that can
+                            financial solutions to save you money.
+                        </p>
+                    </div>
+                    <div class="feature-box">
+                        <i class="ri-vip-diamond-line text-success fs-1"></i>
+                        <h3 class="py-3 text-clash-me fs-4">Trusted Car Dealership</h3>
+                        <p class="fs-5 text-clash">
+                            Our stress-free finance department that can
+                            financial solutions to save you money.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center p-5 border border-0">
+                    <img src="./image/black-isolated-car 1.png" class="p-5" alt="car">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="feature-box">
+                        <i class="ri-price-tag-3-line text-success fs-1"></i>
+                        <h3 class="py-3 text-clash-me fs-4">Transparent Pricing</h3>
+                        <p class="fs-5 text-clash">
+                            Our stress-free finance department that can
+                            financial solutions to save you money.
+                        </p>
+                    </div>
+
+                    <div class="feature-box">
+                        <i class="ri-car-line text-success fs-1"></i>
+                        <h3 class="py-3 text-clash-me fs-4">Expert Car Service</h3>
+                        <p class="fs-5 text-clash">
+                            Our stress-free finance department that can
+                            financial solutions to save you money.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5">
+        <div class="container">
+            <h2 class="text-clash-me fs-2 px-3">Shop Box Car Your <br>
+                Way</h2>
+            <div class="browse-tabs d-flex">
+                <ul class="d-flex ">
+                    <li>
+                        <a href="#"
+                            class="active border border-info border-start-0 border-top-0 border-end-0 text-decoration-none  text-clash-me text-black">New
+                            Cars For Sale</a>
+                    </li>
+                    <li><a href="#" class="text-decoration-none px-3 text-clash-me text-black">Used Cars For Sale</a>
+                    </li>
+                    <li><a href="#" class="text-decoration-none px-3 text-clash-me text-black">Browse By Type</a></li>
+                    <li><a href="#" class="text-decoration-none px-3 text-clash-me text-black">Browse By Brand</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re text-black ">Ford
+                                Cars</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Honda
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Hyundai
+                                Cars</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Infiniti
+                                Cars</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Jaguar
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Jeep
+                                Cars</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Chrysler
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Citroen
+                                Cars</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Cupra
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Dacia
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">DS
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Fiat
+                                Cars</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li class="py-2"><a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Land Rover
+                                Cars</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Lexus
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#"
+                                class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Mercedes-Benz Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Mazda
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">MG
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Kia
+                                Cars</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">BMW
+                                Cars</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Audi
+                                Cars</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Cupra
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Dacia
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">DS
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Fiat
+                                Cars</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Ford
+                                Cars</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Honda
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Hyundai
+                                Cars</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Infiniti
+                                Cars</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Jaguar
+                                Cars</a></li>
+                        <li class="py-2"> <a href="#" class="text-decoration-none px-3 text-clash-re fs-6 text-black ">Jeep
+                                Cars</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="btn-view p-5 text-center">
+                <a href="#"
+                    class="text-decoration-none text-clash text-black border border-dark p-2 rounded-5 fs-6">View All
+                    <span class="bg-dark text-white p-1 px-1 rounded-circle">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span> </a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container px-5">
+            <div class="card mb-3 rounded-5">
+                <div class="row g-0">
+                    <div class="col-lg-6">
+                        <img src="./image/closeup-shot-person-thinking-buying-new-car-selling-vehicle 1.png"
+                            class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-lg-6 bg-dark-green rounded-end-5">
+                        <div class="card-body p-5">
+                            <h2 class="text-clash-me text-white">Auto Loan Calculator</h2>
+
+                            <p class="text-clash text-white py-3">
+                                Use this car payment calculator to estimate monthly
+                                payments on your next new or used auto loan.
+                            </p>
+                            <form action="">
+                                <div class="form-price d-flex py-3">
+                                    <div class="input-box bg-light rounded-2 px-4 ms-1">
+                                        <label class="d-block text-black text-clash-me">Price ($)</label>
+                                        <input type="number" class="border-0 rounded-2" value="10000">
+                                    </div>
+
+                                    <div class="input-box bg-light rounded-2 px-4 ms-5">
+                                        <label class="d-block text-black text-clash-me">Price ($)</label>
+                                        <input type="number" class="border-0 rounded-2" value="10000">
+                                    </div>
+                                </div>
+                                <div class="form-payment d-flex py-3">
+                                    <div class="input-box bg-light rounded-2 px-4 ms-1">
+                                        <label class="d-block text-black text-clash-me">Loan Term (year)</label>
+                                        <input type="number" class="border-0 rounded-2" value="5">
+                                    </div>
+
+                                    <div class="input-box bg-light rounded-2 px-4 ms-5">
+                                        <label class="d-block text-black text-clash-me">Down Payment</label>
+                                        <input type="number" class="border-0 rounded-2" value="5000">
+                                    </div>
+                                </div>
+                                <div class="cal-btn bg-backdrop">
+                                    <a href="#"
+                                        class="d-block calc-btn bg-dark-opacity text-center px-0 py-1 mt-3 ms-1 text-decoration-none text-white  rounded-5">Calculate
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <!-- <button class="btn d-block btn-calc bg-transparent text-center px-0 py-1 mt-3 ms-1 text-decoration-none text-white  rounded-5" type="button">Calculate
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i></button> -->
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-clash-me text-black">Browse By Type</h2>
+            <div class="row py-3">
+                <div class="col-lg-6">
+                    <div class="card rounded-5">
+                        <a href="#"><img src="./image/browse-1.png" class="card-img" alt="car">
+                            <div class="card-img-overlay position-reletive">
+                                <p
+                                    class="text-black bg-light rounded-5 p-1 text-clash-me position-absolute bottom-0 start-0  px-2 d-inline-block">
+                                    <i class="fa-solid fa-car"></i><span class="px-1">SUV</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card ">
+                        <a href="#"><img src="./image/browse-2.png" class="card-img" alt="...">
+                            <div class="card-img-overlay position-reletive">
+                                <p
+                                    class="text-black bg-light rounded-5 p-1 text-clash-me position-absolute bottom-0 start-0  px-2 d-inline-block">
+                                    <i class="fa-solid fa-car"></i><span class="px-1">Sedan</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-lg-4">
+                    <div class="card rounded-5">
+                        <a href="#"><img src="./image/browse-3.png" class="card-img" alt="...">
+                            <div class="card-img-overlay position-reletive">
+                                <p
+                                    class="text-black bg-light rounded-5 p-1 text-clash-me  position-absolute bottom-0 start-0 px-2 d-inline-block">
+                                    <i class="fa-solid fa-car"></i><span class="px-1">Super Car</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card rounded-5">
+                        <a href="#"><img src="./image/browse-4.png" class="card-img" alt="...">
+                            <div class="card-img-overlay position-reletive">
+                                <p
+                                    class="text-black bg-light rounded-5 p-1 text-clash-me position-absolute bottom-0 start-0  px-2 d-inline-block">
+                                    <i class="fa-solid fa-car"></i><span class="px-1">Hybrid</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 px-3">
+                    <div class="card rounded-5">
+                        <a href="#"><img src="./image/browse-5.png" class="card-img" alt="...">
+                            <div class="card-img-overlay position-reletive">
+                                <p
+                                    class="text-black bg-light rounded-5 p-1 text-clash-me  position-absolute bottom-0 start-0 px-2 d-inline-block">
+                                    <i class="fa-solid fa-car"></i><span class="px-1">Coupe</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-view p-5 text-center">
+                <a href="#"
+                    class="text-decoration-none text-clash text-black border border-dark p-2 rounded-5 fs-6">View All
+                    <span class="bg-dark text-white p-1 px-1 rounded-circle">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span> </a>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="review-heading d-flex justify-content-between align-items-center">
+                <h2 class="text-clash-me">What our customers say</h2>
+                <p class="text-clash-me" style="max-width: 500px;">Rated 4.7/5 based on 28,370 reviews Showing our 4 & 5
+                    star reviews</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card rounded-5 position-reletive">
+                        <img src="./image/review-img.png" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="row position-absolute bottom-0 start-0 end-0 p-1">
+                                <div class="col">
+                                    <div class="card mb-3" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <div class="pro-verifie d-flex justify-content-between">
+                                                <span class="text-clash-me"><img src="./image/Ellipse 1.png" alt=""> Ali
+                                                    Tufan</span>
+                                                <p class="text-black-50 text-clash-me"><span
+                                                        class="bg-dark-subtle text-black p-0 rounded-circle "><i
+                                                            class="fa-solid fa-check"></i></span> Verified</p>
+                                            </div>
+                                            <div class="star-icon">
+                                                <ul class="d-flex">
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <h5 class="text-clash-me text-black">Sales process was simple and easy</h5>
+                                            <p class="text-clash text-black">Sales process was simple and easy.
+                                                Maximillion was friendly and I didn’t feel...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mb-3" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <div class="pro-verifie d-flex justify-content-between">
+                                                <span class="text-clash-me"><img src="./image/Ellipse 1.png" alt=""> Ali
+                                                    Tufan</span>
+                                                <p class="text-black-50 text-clash-me"><span
+                                                        class="bg-dark-subtle text-black p-0 rounded-circle "><i
+                                                            class="fa-solid fa-check"></i></span> Verified</p>
+                                            </div>
+                                            <div class="star-icon">
+                                                <ul class="d-flex">
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <h5 class="text-clash-me text-black">Sales process was simple and easy</h5>
+                                            <p class="text-clash text-black">Sales process was simple and easy.
+                                                Maximillion was friendly and I didn’t feel...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mb-3" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <div class="pro-verifie d-flex justify-content-between">
+                                                <span class="text-clash-me"><img src="./image/Ellipse 1.png" alt=""> Ali
+                                                    Tufan</span>
+                                                <p class="text-black-50 text-clash-me"><span
+                                                        class="bg-dark-subtle text-black p-0 rounded-circle "><i
+                                                            class="fa-solid fa-check"></i></span> Verified</p>
+                                            </div>
+                                            <div class="star-icon">
+                                                <ul class="d-flex">
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <h5 class="text-clash-me text-black">Sales process was simple and easy</h5>
+                                            <p class="text-clash text-black">Sales process was simple and easy.
+                                                Maximillion was friendly and I didn’t feel...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mb-3" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <div class="pro-verifie d-flex justify-content-between">
+                                                <span class="text-clash-me"><img src="./image/Ellipse 1.png" alt=""> Ali
+                                                    Tufan</span>
+                                                <p class="text-black-50 text-clash-me"><span
+                                                        class="bg-dark-subtle text-black p-0 rounded-circle "><i
+                                                            class="fa-solid fa-check"></i></span> Verified</p>
+                                            </div>
+                                            <div class="star-icon">
+                                                <ul class="d-flex">
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                    <li class="text-warning px-1"><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <h5 class="text-clash-me text-black">Sales process was simple and easy</h5>
+                                            <p class="text-clash text-black">Sales process was simple and easy.
+                                                Maximillion was friendly and I didn’t feel...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-clash-me px-5">Our Team</h2>
+            <div class="row p-5 ">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card rounded-4">
+                        <img src="./image/team1.jpg.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p>Courtney Henry</p>
+                            <p>Development Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card rounded-4">
+                        <img src="./image/team2.jpg (1).png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p>Jerome Bell</p>
+                            <p>Software Tester</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card rounded-4">
+                        <img src="./image/team2.jpg.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p>Jerome Bell</p>
+                            <p>Software Tester</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-view p-2 text-center">
+                <a href="#"
+                    class="text-decoration-none text-clash text-black border border-dark p-2 rounded-5 fs-6">View All
+                    <span class="bg-dark text-white p-1 px-1 rounded-circle">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span> </a>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-clash-me ">Latest Blog Posts</h2>
+            <div class="row py-3 ">
+                <div class="col-lg-4 col-sm-12 position-reletive">
+                    <div class="card rounded-4 border border-dark  shadow-bottom ">
+                        <img src="./image/blog-1.png" class="card-img-top p-4" alt="...">
+                        <span class="position-absolute start-10 top-10"><a href="#"
+                                class="text-decoration-none text-black bg-light text-clash-me p-1 rounded-4">Exterior</a></span>
+                        <div class="card-body p-4">
+                            <p class="text-clash-re">Admin <span class="px-3">November 22,2023</span></p>
+                            <p class="text-clash-me">BMW X5 Gold 2024 Sport Review: Light on Sport</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 position-reletive">
+                    <div class="card rounded-4 border border-dark  shadow-bottom ">
+                        <img src="./image/blog-2.png" class="card-img-top p-4" alt="...">
+                        <span class="position-absolute start-10 top-10"><a href="#"
+                                class="text-decoration-none text-black bg-light text-clash-me p-1 rounded-4">Exterior</a></span>
+                        <div class="card-body p-4">
+                            <p class="text-clash-re">Admin <span class="px-3">November 22,2023</span></p>
+                            <p class="text-clash-me">BMW X5 Gold 2024 Sport Review: Light on Sport</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 position-reletive">
+                    <div class="card rounded-4 border border-dark  shadow-bottom ">
+                        <img src="./image/blog-3.png" class="card-img-top p-4" alt="...">
+                        <span class="position-absolute start-10 top-10"><a href="#"
+                                class="text-decoration-none text-black bg-light text-clash-me p-1 rounded-4">Exterior</a></span>
+                        <div class="card-body p-4">
+                            <p class="text-clash-re">Admin <span class="px-3">November 22,2023</span></p>
+                            <p class="text-clash-me">BMW X5 Gold 2024 Sport Review: Light on Sport</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-view p-5 text-center">
+                <a href="#"
+                    class="text-decoration-none text-clash text-black border border-dark p-2 rounded-5 fs-6">View All
+                    <span class="bg-dark text-white p-1 px-1 rounded-circle">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span> </a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fludid">
+            <div class="card text-bg-dark">
+                <img src="./image/lambo.png" class="card-img" alt="...">
+                <div class="card-img-overlay position-reletive">
+                    <div
+                        class="content-lambo border border-1 border-light d-inline-block text-center px-1 py-2 position-absolute top-25 bg-backdrop-2">
+                        <h2 class="text-clash-re text-center fs-60 p-1" style="max-width: 600px;">We make finding the
+                            right car simple</h2>
+                        <a href="#"
+                            class="btn btn-success text-white text-decoration-none text-clash-re  p-1 px-2 rounded-4 ">Find
+                            Out More <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="join-form d-flex justify-content-between align-items-center">
+                <div class="join-left flex-1">
+                    <p class="fs-2 text-clash-smb">Join CarHut</p>
+                    <p class="text-clash p-0">Receive pricing updates, shopping tips & more!</p>
+                </div>
+                <div class="join-right">
+                    <form class="subscribe-form  d-flex">
+                        <input type="email"
+                            class="border border-dark border-1 border-end-0  rounded-5 p-3 px-5 bg-dark-subtle"
+                            placeholder="Your email address">
+                        <input type="submit" class="px-5 border-0 rounded-5 btn bg-black text-white" value="Sign Up">
+                    </form>
+                </div>
+            </div>
+            <div class="expo-brand d-flex justify-content-between align-items-center py-5">
+                <div class="expo-left">
+                    <h2 class="text-clash-me">Explore Our Premium Brands</h2>
+                </div>
+                <div class="expo-right">
+                    <a href="#"
+                        class="text-decoration-none text-clash text-black border border-dark p-2 rounded-5 fs-6">Show
+                        All Brands <span class="bg-dark p-1 rounded-circle text-white"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-sm-3">
+
+                    <img src="./image/audi.png" class="card-img p-5" alt="car">
+
+                </div>
+                <div class="col-lg-2 col-sm-3">
+                    <img src="./image/BMW.png" class="card-img p-5" alt="car">
+                </div>
+                <div class="col-lg-2 col-sm-3">
+                    <img src="./image/Ford.png" class="card-img p-5" alt="car">
+                </div>
+                <div class="col-lg-2 col-sm-3">
+                    <img src="./image/Mercedes.png" class="card-img p-5" alt="car">
+                </div>
+                <div class="col-lg-2 col-sm-3">
+                    <img src="./image/Peugeot.png" class="card-img p-5" alt="car">
+                </div>
+                <div class="col-lg-2 col-sm-3">
+
+                    <img src="./image/Volkswagen.png" class="card-img p-5" alt="car">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section py-5>
+        <div class="container-fludid bg-dark-green">
+            <div class="container p-5">
+                <div class="row py-5">
+                    <div class="col">
+                        <a href="#"> <img src="./image/logo (1).png" alt="logo"></a>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <div class="icons">
+                            <p class="fs-3 text-white bg-success rounded-circle px-1 ms-1 text-center"><i
+                                    class="fa-solid fa-location-dot"></i></p>
+                        </div>
+                        <div>
+                            <p class="text-clash fs-6 text-white px-2">Address</p>
+                            <p class="text-clash-me text-white px-2">Oxford Ave. Cary, NC 27511</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <div class="icons">
+                            <p class="fs-3 text-white bg-success rounded-circle px-1 ms-1 text-center"> <i
+                                    class="fa-solid fa-envelope"></i></p>
+                        </div>
+                        <div>
+                            <p class="text-clash fs-6 text-white px-2">Email</p>
+                            <p class="text-clash-me text-white px-2">nwiger@yahoo.com</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <div class="icons">
+                            <p class="fs-3 text-white bg-success rounded-circle px-1 ms-1 text-center"> <i
+                                    class="fa-solid fa-phone"></i></p>
+                        </div>
+                        <div>
+                            <p class="text-clash fs-6 text-white px-2">Phone</p>
+                            <p class="text-clash-me text-white px-2">+537 547-6456</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <p class="text-clash text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
+                            magnam inventore possimus
+                            mollitia ex soluta.</p>
+                        <div class="social-icons">
+                            <ul class="d-flex">
+                                <li><a href="#" class="text-white p-1 fs-5"><i class="fa-brands fa-google-plus"></i></a>
+                                </li>
+                                <li><a href="#" class="text-white p-1 fs-5"><i class="fa-brands fa-facebook"></i></a>
+                                </li>
+                                <li><a href="#" class="text-white p-1 fs-5"><i class="fa-brands fa-linkedin"></i></a>
+                                </li>
+                                <li><a href="#" class="text-white p-1 fs-5"><i class="fa-brands fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center">
+                        <p class="text-white text-clash-me fs-5">Vehicles</p>
+                        <ul>
+                            <li><a href="#" class="text-decoration-none text-white text-clash">About Us</a></li>
+                            <li><a href="#" class="text-decoration-none text-white text-clash">Contact Us</a></li>
+                            <li><a href="#" class="text-decoration-none text-white text-clash">Gallery</a></li>
+                            <li><a href="#" class="text-decoration-none text-white text-clash">Blog</a></li>
+                            <li><a href="#" class="text-decoration-none text-white text-clash">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center">
+                        <p class="text-white text-clash-me fs-5">Vehicles</p>
+                        <ul>
+                            <li><a href="#" class="text-decoration-none text-white text-clash">About Us</a></li>
+                            <li><a href="#" class="text-decoration-none text-white text-clash">Contact Us</a></li>
+                            <li><a href="#" class="text-decoration-none text-white text-clash">Gallery</a></li>
+                            <li><a href="#" class="text-decoration-none text-white text-clash">Blog</a></li>
+                            <li><a href="#" class="text-decoration-none text-white text-clash">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="apps d-flex flex-column align-items-center">
+                            <p class="text-white text-clash-me fs-5">Download App</p>
+                            <img src="./image/App Store.png" alt="">
+                            <img src="./image/Google Play.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div
+                class="footer-bottom d-flex justify-content-around py-5 align-items-center border border-start-0 border-end-0 border-bottom-0">
+                <p><a href="#" class="text-decoration-none text-white text-clash-re">© 2025 example.com. All rights
+                        reserved.</a></p>
+                <div class="footer-links">
+                    <a href="#" class="text-decoration-none text-white text-clash-re">Terms & Conditions</a>
+                    <span class="text-white">*</span>
+                    <a href="#" class="text-decoration-none text-white text-clash-re">Privacy Notice</a>
+                </div>
+                <a href="#" class="scroll-top text-white bg-success p-2 rounded-2">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
