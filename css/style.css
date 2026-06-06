@@ -67,18 +67,6 @@ header {
     position: relative;
 }
 
-/* NAVBAR */
-
-.nav-list {
-    position: absolute;
-    left: 10%;
-}
-
-.nav_CA_btn {
-    position: absolute;
-    right: 10%;
-}
-
 /* STATS */
 
 .stats-box {
@@ -112,9 +100,11 @@ header {
 .banner-con {
     position: relative;
 }
-.hero-content{
-    min-height:75vh;
+
+.hero-content {
+    min-height: 75vh;
 }
+
 .banner-content-top {
     z-index: 99;
     top: 7%;
